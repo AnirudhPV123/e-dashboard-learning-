@@ -1,0 +1,159 @@
+
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a{
+  text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-ul{
+  background-color: aqua;
+  padding: 10px;
+  margin: 0px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: aqua;
+  width: 100%;
+  text-align: center;
+}
+
+.signup{
+  margin-left: 40%;
+}
+
+
+
+.inputBox{
+  padding: 12px;
+    width: 400px;
+    border: 1px solid skyblue;
+    margin: 10px;
+}
+
+.signUp-button{
+  padding: 8px;
+  width: 200px;
+  background-color: skyblue;
+  border: 1px solid;
+  border-radius: 6px;
+  margin: 20px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+
+.login{
+  margin-left: 40%;
+}
+
+
+.signUp-button:hover{
+  background-color: blue;
+}
+
+
+.login-button{
+  padding: 8px;
+  width: 200px;
+  background-color: skyblue;
+  border: 1px solid;
+  border-radius: 6px;
+  margin: 20px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.login-button:hover{
+  background-color: blue;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.add-product{
+  margin-left: 40%;
+}
+
+.input-validation{
+  margin-left: 10px;
+  font-size: 13px;
+  color: red;
+  margin-top: -5px;
+  display: block;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li{
+  display: inline-block;
+  width: 180px;
+  border: 1px solid skyblue;
+  height: 30px;
+  padding-top: 6px;
+}
+
+.product-list ul{
+  margin: 0;
+}
+
+.search-input-box{
+  width: 300px;
+  height: 35px;
+  font-size: 17px;
+  margin: 20px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
